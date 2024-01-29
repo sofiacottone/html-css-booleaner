@@ -29,11 +29,11 @@ article {
     padding: 10px;
 }
 
-article p {
+.subtitle {
     color: var(--gray-text);
 }
 
-article p:last-of-type {
+.subtitle p:last-of-type {
     font-size: 12px;
 }
 
@@ -41,4 +41,22 @@ article p:last-of-type {
 .link {
     text-decoration: none;
     color: var(--table-head-blue);
+}
+
+figure img {
+    display: block;
+    padding-top: 5px;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.lorem-p {
+    padding: 10px 0 20px 0;
+}
+
+.highlight-text {
+    background-color: yellow;
+    border-radius: 5px;
 }
