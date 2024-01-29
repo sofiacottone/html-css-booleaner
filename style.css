@@ -1,0 +1,12 @@
+:root {
+    --header-blue: #4EA0FF;
+    --gray-text: #808080;
+    --table-head-blue: #20A9E5;
+    --table-row-blue: #B1E5F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
