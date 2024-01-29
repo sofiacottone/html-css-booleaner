@@ -63,4 +63,25 @@ figcaption {
 
 ul {
     margin-left: 15px;
+    padding-bottom: 25px;
+}
+
+table,
+th,
+td {
+    border-spacing: 0;
+}
+
+table th:not(th:last-of-type) {
+    width: 25%;
+}
+
+thead {
+    background-color: var(--table-head-blue);
+    text-align: left;
+    color: white;
+}
+
+.blue-row {
+    background-color: var(--table-row-blue);
 }
