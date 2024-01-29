@@ -24,3 +24,21 @@ header img {
     width: 250px;
     height: 80%;
 }
+
+article {
+    padding: 10px;
+}
+
+article p {
+    color: var(--gray-text);
+}
+
+article p:last-of-type {
+    font-size: 12px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: var(--table-head-blue);
+}
