@@ -17,7 +17,7 @@ header {
     background-repeat: repeat-x;
     background-color: var(--header-blue);
     height: 120px;
-    padding: 50px 0 10px 20px;
+    padding: 40px 0 10px 20px;
 }
 
 header img {
@@ -84,4 +84,34 @@ thead {
 
 .blue-row {
     background-color: var(--table-row-blue);
+}
+
+.suggested {
+    padding: 10px;
+}
+
+.suggested h3 {
+    color: var(--gray-text);
+    padding-bottom: 10px;
+}
+
+.suggested-imgs {
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lorem-monitor {
+    background-image: url(img/monitor.jpg);
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.lorem-graph {
+    background-image: url(img/graph.jpg);
+    height: 200px;
+    padding: 10px;
+
 }
