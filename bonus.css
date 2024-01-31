@@ -1,0 +1,126 @@
+:root {
+    --header-blue: #4EA0FF;
+    --gray-text: #808080;
+    --table-head-blue: #20A9E5;
+    --table-row-blue: #B1E5F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /reset rules  */
+/* header  */
+header {
+    background: url(img/pattern.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: var(--header-blue);
+    height: 120px;
+    padding: 40px 0 10px 20px;
+}
+
+header img {
+    width: 250px;
+    height: 80%;
+}
+
+/* /header  */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article {
+    padding: 10px;
+}
+
+.subtitle {
+    color: var(--gray-text);
+}
+
+.subtitle p:last-of-type {
+    font-size: 12px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: var(--table-head-blue);
+}
+
+figure img {
+    display: block;
+    padding-top: 5px;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.lorem-p {
+    padding: 20px 0;
+}
+
+.highlight-text {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+ul {
+    margin-left: 15px;
+    padding-bottom: 25px;
+}
+
+table,
+th,
+td {
+    border-spacing: 0;
+}
+
+table th:not(th:last-of-type) {
+    width: 25%;
+}
+
+thead {
+    background-color: var(--table-head-blue);
+    text-align: left;
+    color: white;
+}
+
+.blue-row {
+    background-color: var(--table-row-blue);
+}
+
+.suggested {
+    padding: 10px;
+}
+
+.suggested h3 {
+    color: var(--gray-text);
+    padding-bottom: 10px;
+}
+
+.suggested-imgs {
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lorem-monitor {
+    background-image: url(img/monitor.jpg);
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.lorem-graph {
+    background-image: url(img/graph.jpg);
+    height: 200px;
+    padding: 10px;
+
+}
