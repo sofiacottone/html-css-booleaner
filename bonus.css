@@ -34,8 +34,15 @@ header img {
     margin: 0 auto;
 }
 
-article {
+/* article  */
+article,
+.suggested {
     padding: 10px;
+}
+
+article h1 {
+    font-size: 36px;
+    margin-top: 10px;
 }
 
 .subtitle {
@@ -46,8 +53,7 @@ article {
     font-size: 12px;
 }
 
-
-.link {
+.booleaner-link {
     text-decoration: none;
     color: var(--table-head-blue);
 }
@@ -55,6 +61,7 @@ article {
 figure img {
     display: block;
     padding-top: 5px;
+    margin-bottom: 10px;
 }
 
 figcaption {
@@ -63,11 +70,7 @@ figcaption {
 
 .lorem-p {
     padding: 20px 0;
-}
-
-.highlight-text {
-    background-color: yellow;
-    border-radius: 5px;
+    text-align: justify;
 }
 
 ul {
@@ -75,14 +78,15 @@ ul {
     padding-bottom: 25px;
 }
 
+/* table  */
 table,
 th,
 td {
     border-spacing: 0;
 }
 
-table th:not(th:last-of-type) {
-    width: 25%;
+table th:last-of-type {
+    width: 50%;
 }
 
 thead {
@@ -91,14 +95,13 @@ thead {
     color: white;
 }
 
-.blue-row {
+tbody tr:nth-child(odd) {
     background-color: var(--table-row-blue);
 }
 
-.suggested {
-    padding: 10px;
-}
+/* /table  */
 
+/* suggested  */
 .suggested h3 {
     color: var(--gray-text);
     padding-bottom: 10px;
@@ -111,16 +114,18 @@ thead {
     font-size: 20px;
 }
 
+.sugg-img {
+    height: 200px;
+    padding: 10px;
+}
+
 .lorem-monitor {
     background-image: url(img/monitor.jpg);
-    height: 200px;
     margin-bottom: 10px;
-    padding: 10px;
 }
 
 .lorem-graph {
     background-image: url(img/graph.jpg);
-    height: 200px;
-    padding: 10px;
-
 }
+
+/* /suggested  */
